@@ -10,11 +10,11 @@
 
 int main(int argc, const char * argv[])
 {
-    // Den Roman Anfang ausgeben
+    // 1-line comment
     printf("It was the best of times.\n");
     printf("It was the worst of times.\n");
-    /* Ist das wirklich gut?
-       Vielleicht muss es noch umformuliert werden. */
+    /* more than 1 comment
+       with several lines in a comment block */
     return 0;
 }
 
