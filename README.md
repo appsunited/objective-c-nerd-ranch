@@ -5,7 +5,7 @@ I am working with the [german](http://www.amazon.de/Objective-C-Einstieg-Ranch-G
 
 ### Structure
 
-The first number of directory titles is just for sorting, the second number stands for the chapter. For example 13-6.4-MathSin is found in chapter 6.4 with file name MathSin.
+The first number of directory titles is just for sorting, the second number stands for the chapter. For example: `13-6.4-MathSin` is found in chapter 6.4 with file name MathSin.
 
 
 ### Clone Repo
