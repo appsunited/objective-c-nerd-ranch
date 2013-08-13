@@ -16,6 +16,7 @@ typedef struct {
 
 float bodyMassIndex(Person *p)
 {
+    // p->member is a shortcut to (*p).member
     return p->weightInKilos / (p->heightInMeters * p->heightInMeters);
 }
 

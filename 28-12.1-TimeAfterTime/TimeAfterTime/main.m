@@ -13,6 +13,8 @@ int main(int argc, const char * argv[])
 
     @autoreleasepool {
         NSDate *now = [NSDate date];
+        // Pointer to simple objects can be derefrenced with the * operator.
+        // Complex Objective-C object can't be accessed using the derefrencing operator.
         NSLog(@"The new date lives at %p", now);
         NSLog(@"The date is %@", now);
 
