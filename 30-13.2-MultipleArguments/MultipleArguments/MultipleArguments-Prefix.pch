@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'MultipleArguments' target in the 'MultipleArguments' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
