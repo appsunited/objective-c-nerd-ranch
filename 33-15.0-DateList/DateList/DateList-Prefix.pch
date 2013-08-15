@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'DateList' target in the 'DateList' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

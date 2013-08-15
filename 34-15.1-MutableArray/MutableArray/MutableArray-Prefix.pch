@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'MutableArray' target in the 'MutableArray' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
