@@ -1,0 +1,262 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6625DAD17D387F00004DC87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6625DAC17D387F00004DC87 /* Foundation.framework */; };
+		D6625DB017D387F00004DC87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6625DAF17D387F00004DC87 /* main.m */; };
+		D6625DB417D387F00004DC87 /* Portfolio.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D6625DB317D387F00004DC87 /* Portfolio.1 */; };
+		D6625DBC17D388080004DC87 /* StockHolding.m in Sources */ = {isa = PBXBuildFile; fileRef = D6625DBB17D388080004DC87 /* StockHolding.m */; };
+		D6625DBF17D38C100004DC87 /* Portfolio.m in Sources */ = {isa = PBXBuildFile; fileRef = D6625DBE17D38C100004DC87 /* Portfolio.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D6625DA717D387F00004DC87 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				D6625DB417D387F00004DC87 /* Portfolio.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D6625DA917D387F00004DC87 /* Portfolio */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Portfolio; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6625DAC17D387F00004DC87 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D6625DAF17D387F00004DC87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6625DB217D387F00004DC87 /* Portfolio-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Portfolio-Prefix.pch"; sourceTree = "<group>"; };
+		D6625DB317D387F00004DC87 /* Portfolio.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Portfolio.1; sourceTree = "<group>"; };
+		D6625DBA17D388080004DC87 /* StockHolding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockHolding.h; sourceTree = "<group>"; };
+		D6625DBB17D388080004DC87 /* StockHolding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockHolding.m; sourceTree = "<group>"; };
+		D6625DBD17D38C100004DC87 /* Portfolio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Portfolio.h; sourceTree = "<group>"; };
+		D6625DBE17D38C100004DC87 /* Portfolio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Portfolio.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6625DA617D387F00004DC87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6625DAD17D387F00004DC87 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6625DA017D387F00004DC87 = {
+			isa = PBXGroup;
+			children = (
+				D6625DAE17D387F00004DC87 /* Portfolio */,
+				D6625DAB17D387F00004DC87 /* Frameworks */,
+				D6625DAA17D387F00004DC87 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6625DAA17D387F00004DC87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6625DA917D387F00004DC87 /* Portfolio */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6625DAB17D387F00004DC87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6625DAC17D387F00004DC87 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6625DAE17D387F00004DC87 /* Portfolio */ = {
+			isa = PBXGroup;
+			children = (
+				D6625DAF17D387F00004DC87 /* main.m */,
+				D6625DBA17D388080004DC87 /* StockHolding.h */,
+				D6625DBD17D38C100004DC87 /* Portfolio.h */,
+				D6625DBE17D38C100004DC87 /* Portfolio.m */,
+				D6625DBB17D388080004DC87 /* StockHolding.m */,
+				D6625DB317D387F00004DC87 /* Portfolio.1 */,
+				D6625DB117D387F00004DC87 /* Supporting Files */,
+			);
+			path = Portfolio;
+			sourceTree = "<group>";
+		};
+		D6625DB117D387F00004DC87 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6625DB217D387F00004DC87 /* Portfolio-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6625DA817D387F00004DC87 /* Portfolio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6625DB717D387F00004DC87 /* Build configuration list for PBXNativeTarget "Portfolio" */;
+			buildPhases = (
+				D6625DA517D387F00004DC87 /* Sources */,
+				D6625DA617D387F00004DC87 /* Frameworks */,
+				D6625DA717D387F00004DC87 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Portfolio;
+			productName = Portfolio;
+			productReference = D6625DA917D387F00004DC87 /* Portfolio */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6625DA117D387F00004DC87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = appsunited;
+			};
+			buildConfigurationList = D6625DA417D387F00004DC87 /* Build configuration list for PBXProject "Portfolio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D6625DA017D387F00004DC87;
+			productRefGroup = D6625DAA17D387F00004DC87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6625DA817D387F00004DC87 /* Portfolio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6625DA517D387F00004DC87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6625DB017D387F00004DC87 /* main.m in Sources */,
+				D6625DBC17D388080004DC87 /* StockHolding.m in Sources */,
+				D6625DBF17D38C100004DC87 /* Portfolio.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D6625DB517D387F00004DC87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D6625DB617D387F00004DC87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D6625DB817D387F00004DC87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Portfolio/Portfolio-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D6625DB917D387F00004DC87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Portfolio/Portfolio-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6625DA417D387F00004DC87 /* Build configuration list for PBXProject "Portfolio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6625DB517D387F00004DC87 /* Debug */,
+				D6625DB617D387F00004DC87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6625DB717D387F00004DC87 /* Build configuration list for PBXNativeTarget "Portfolio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6625DB817D387F00004DC87 /* Debug */,
+				D6625DB917D387F00004DC87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6625DA117D387F00004DC87 /* Project object */;
+}
