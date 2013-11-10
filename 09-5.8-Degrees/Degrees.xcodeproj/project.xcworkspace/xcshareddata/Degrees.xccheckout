@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8070CD2C-B744-4DAA-A6AC-2B2577E5303E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Degrees</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>90CB34FB-C40D-4F5C-9D86-79A909BFDFE4</key>
+		<string>ssh://github.com/appsunited/objective-c-nerd-ranch.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>09-5.8-Degrees/Degrees.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>90CB34FB-C40D-4F5C-9D86-79A909BFDFE4</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/appsunited/objective-c-nerd-ranch.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>90CB34FB-C40D-4F5C-9D86-79A909BFDFE4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>90CB34FB-C40D-4F5C-9D86-79A909BFDFE4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Objective-C - Nerd Ranche</string>
+		</dict>
+	</array>
+</dict>
+</plist>
